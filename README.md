@@ -33,6 +33,7 @@ grounded in real data — not generated from memory.
 
 ## Project Structure
 
+```
 rag-layoffs-assistant/
 ├── data/                          # Layoff events and news sentiment CSVs
 ├── notebooks/
@@ -42,6 +43,7 @@ rag-layoffs-assistant/
 │   └── app.py                     # Streamlit chat interface
 ├── requirements.txt
 └── README.md
+```
 
 ## Key Findings from the Data
 
