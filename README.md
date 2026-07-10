@@ -33,17 +33,17 @@ grounded in real data — not generated from memory.
 
 ## Project Structure
 
-```
+​```text
 rag-layoffs-assistant/
-├── data/                          # Layoff events and news sentiment CSVs
+├── data/
 ├── notebooks/
-│   ├── 01_build_vector_store.ipynb  # Data chunking and ChromaDB setup
-│   └── 02_rag_pipeline.ipynb        # Retrieval and generation pipeline
+│   ├── 01_build_vector_store.ipynb
+│   └── 02_rag_pipeline.ipynb
 ├── app/
-│   └── app.py                     # Streamlit chat interface
+│   └── app.py
 ├── requirements.txt
 └── README.md
-```
+​```
 
 ## Key Findings from the Data
 
@@ -52,6 +52,9 @@ rag-layoffs-assistant/
 - **Amazon led** all companies with 49,624 total layoffs
 - **Non-AI companies** laid off significantly more (392,263) than AI companies (149,030)
 - **Media sentiment** was predominantly negative — 150 negative articles vs 119 positive
+
+## Live Demo
+Try it here: https://rag-layoffs-assistant-6ttwvcskhqmhk5drsz48xd.streamlit.app/
 
 ## Setup
 
