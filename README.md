@@ -51,6 +51,9 @@ rag-layoffs-assistant/
 - **Non-AI companies** laid off significantly more (392,263) than AI companies (149,030)
 - **Media sentiment** was predominantly negative — 150 negative articles vs 119 positive
 
+## Live Demo
+Try it here: https://rag-layoffs-assistant-6ttwvcskhqmhk5drsz48xd.streamlit.app/
+
 ## Setup
 
 ```bash
