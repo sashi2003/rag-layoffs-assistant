@@ -31,20 +31,6 @@ grounded in real data — not generated from memory.
 - **Frontend** — Streamlit
 - **Data** — 2,470 layoff events + 306 news articles (2020-2026)
 
-## Project Structure
-
-​```text
-rag-layoffs-assistant/
-├── data/
-├── notebooks/
-│   ├── 01_build_vector_store.ipynb
-│   └── 02_rag_pipeline.ipynb
-├── app/
-│   └── app.py
-├── requirements.txt
-└── README.md
-​```
-
 ## Key Findings from the Data
 
 - **541,293 total layoffs** tracked across 1,903 companies
