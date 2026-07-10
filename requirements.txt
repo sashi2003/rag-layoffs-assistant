@@ -1,7 +1,6 @@
 streamlit
 pandas
-numpy<2
-chromadb
+chromadb>=0.5.0
 sentence-transformers
 openai
 python-dotenv
